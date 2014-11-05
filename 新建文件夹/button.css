@@ -1,0 +1,98 @@
+body{
+	font:12px Verdana,Arial; 
+}
+.button{
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	height:40px;
+	width:100px; 
+	text-align:center; 
+	cursor:pointer; 
+	margin-top:50px;
+	text-align:center;
+	font-size:25px;
+	background-color:#d9d9d9; 
+	float:left;
+}
+.register{
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	height:40px;
+	width:100px; 
+	text-align:center; 
+	cursor:pointer; 
+	margin-left:150px;
+	margin-top:50px;
+	background-color:#d9d9d9; 
+	font-size:25px;	
+}
+.button:hover,.register:hover{
+	
+	background-color:#999999; 
+	
+}
+.floatright{
+	margin-top:15px;
+	margin-left:130px;
+	width:250px;
+	background-color:#FF6666;
+	color:white;
+}
+#login{
+	margin-top:15px;
+	margin-left:130px;
+	width:250px;
+	background-color:#6699ff;
+	color:white;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	height:40px;
+	text-align:center; 
+	cursor:pointer; 
+	font-size:25px;
+	float:left;
+}
+.floatright:hover{
+	background-color:#FF6633;
+}
+#login:hover{
+	background-color:#6699cc;
+	
+}
+#fade{
+	opacity:0; 
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	height:300px; 
+	width:500px;
+	
+	background-color:#cccccc; 
+	color:#79af72; 
+	text-shadow:1px 1px #21341d;
+	left:400px;
+	top:200px;
+	z-index:2;
+	position:fixed;
+}
+h1{
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+#forget{
+	color:blue;
+}
+#forget:link{
+	color:blue;
+}
+#forget:hover{
+	color:blue;
+}
+#forget:active{
+	color:blue;
+}
+#forget:visited{
+	color:blue;
+}
